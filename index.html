@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+ <meta property="og:title" content="Nuestra Boda - Vanesa y Daniel" />
+    <meta property="og:description"
+        content="¡La cuenta regresiva ha comenzado! Descubre los detalles y confirma tu asistencia." />
+
+    <meta property="og:image"
+        content="https://lunofest.github.io/BodaVanesayDaniel070226/assets/imagenes/miniatura.png" />
+    <meta property="og:url" content="https://lunofest.github.io/BodaVanesayDaniel070226/" />
+    <meta property="og:type" content="website" />
+
+    <meta property="og:image:type" content="image/png" />
+
+    <link rel="stylesheet" href="estilos/styles.css?v35">
+    <link rel="stylesheet" href="estilos/normalize.css?v35">
+    <link rel="stylesheet" href="estilos/mediaQueries.css?v35">
+
+
+
+    <script src="cache.js"></script>
+    <script src="main.js"></script>
+
+
+    <title>Nuestra Boda</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <img class="header__hojas" src="assets/headerHOJAS.webp" alt="">
+
+        <div class="header__text">
+            <h4 class="header__title">¡Nos Casamos!</h4>
+            <h4 class="header__name">Vanesa <br> <span class="name__span">&</span> <br> Daniel </h4>
+        </div>
+    </header>
+
+    <main>
+
+
+        <section class="musica">
+
+            <h4 class="musica__title">Toca "play" para escuchar nuestra canción</h4>
+
+            <div class="lineMUSIC"></div>
+
+            <div class="player">
+                <audio id="audio" src="assets/musica.mp3"></audio>
+
+                <button class="player__button player__button--rewind">
+                    <i class="fas fa-backward"></i>
+                </button>
+
+                <button class="player__button player__button--play">
+                    <i class="fas fa-play"></i>
+                </button>
+
+                <button class="player__button player__button--forward">
+                    <i class="fas fa-forward"></i>
+                </button>
+            </div>
+        </section>
+
+        <section class="foto">
+
+            <!-- <div>
+                <svg class="foto__svg" width="100%" preserveAspectRatio="none" height="90" viewBox="0 0 1000 100"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <filter id="sombra">
+                            <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.3)" />
+                        </filter>
+                    </defs>
+                    <path d="M0,85
+                          C50,70 120,110 180,75 
+                          C250,65 300,105 350,90
+                          C400,75 450,100 500,85
+                          C550,70 600,115 650,70 
+                          C700,65 750,105 800,90
+                          C850,75 900,110 950,95
+                          C980,85 1000,100 1000,90
+                          L1000,140
+                          L0,140
+                          Z" fill="#fff" filter="url(#sombra)" />
+                </svg>
+
+                <svg class="foto__svg2" width="100%" preserveAspectRatio="none" height="90" viewBox="0 0 1000 100"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <filter id="sombra">
+                            <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.3)" />
+                        </filter>
+                    </defs>
+                    <path d="M0,85
+                          C50,70 120,110 180,75 
+                          C250,65 300,105 350,90
+                          C400,75 450,100 500,85
+                          C550,70 600,115 650,70 
+                          C700,65 750,105 800,90
+                          C850,75 900,110 950,95
+                          C980,85 1000,100 1000,90
+                          L1000,140
+                          L0,140
+                          Z" fill="#fff" filter="url(#sombra)" />
+                </svg>
+            </div> -->
+
+            <img class="foto__fotografia" src="assets/imagenes/uno.webp" alt="">
+
+        </section>
+
+        <section class="frase">
+            <p class="frase__paragraph"><b>Te quiero no por quién eres, sino por quien soy cuando estoy contigo</b> </p>
+
+             <h4 class="frase__cita">Gabriel García Márquez</h4> 
+        </section>
+
+        <!-- <section class="agradecimiento">
+
+            <img class="agradecimiento__img" src="assets/vectores/novios.svg" alt="">
+
+            <h3 class="agradecimiento__title">Con la Bendicion de Dios y nuestros queridos Padres</h3> 
+
+            <h4 class="agradecimiento__subtitle">Padres de la novia</h4>
+
+            <h5 class="agradecimiento__name">Natalia Aguirre</h5>
+            <h5 class="agradecimiento__name">Miguel Aguirre</h5>
+
+            <h3 class="agradecimiento__title">Y en compañia de nuestros Padrinos</h3>
+
+            <h4 class="agradecimiento__subtitle">Padrinos de boda:</h4>
+
+            <h5 class="agradecimiento__name">Carmen Ruiz</h5>
+            <h5 class="agradecimiento__name">Sergio López</h5>
+
+            <h4 class="agradecimiento__subtitle">Testigos de boda:</h4>
+
+            <h5 class="agradecimiento__name">Sofia Ruiz</h5>
+            <h5 class="agradecimiento__name">Melina López</h5>
+
+
+        </section>  -->
+
+
+        <section class="donde">
+            <img class="donde__icon" src="assets/vectores/anillos.svg" alt="">
+            <h4 class="donde__title">Tenemos el agrado de invitarlos a <br> Nuestra Boda</h4>
+            <h4 class="donde__mes">Febrero</h4>
+            <div class="donde__data">
+                <h4 class="donde__text1 donde__text1__bordes">Sábado</h4>
+                <h4 class="donde__text1 donde__text1__numero">07</h4>
+                <h4 class="donde__text1 donde__text1__bordes">2026</h4>
+            </div>
+
+            <a class="donde__agendar"
+                href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2FxbWgzMDEzazk1aTA1aXYzaWY0ams0N2ggbHVub2Nvb3JwQG0&tmsrc=lunocoorp%40gmail.com">
+                <img class="donde__agenda" src="assets/vectores/calendario.svg" alt="">
+                Agendar fecha</a>
+
+        </section>
+
+  
+        <section class="temporizador">
+
+            <div class="contador">
+                <h2 class="contador__titulo">Faltan...</h2>
+                <div class="contador__tiempo">
+                    <div class="contador__bloque">
+                        <span class="contador__numero" id="dias">0</span>
+                        <span class="contador__texto">Días</span>
+                    </div>
+                    <span class="contador__separador">:</span>
+                    <div class="contador__bloque">
+                        <span class="contador__numero" id="horas">0</span>
+                        <span class="contador__texto">horas</span>
+                    </div>
+                    <span class="contador__separador">:</span>
+                    <div class="contador__bloque">
+                        <span class="contador__numero" id="minutos">0</span>
+                        <span class="contador__texto">Minutos</span>
+                    </div>
+                    <span class="contador__separador">:</span>
+                    <div class="contador__bloque">
+                        <span class="contador__numero" id="segundos">0</span>
+                        <span class="contador__texto">Segundos</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="iglesia">
+            <img class="iglesia__icon" src="assets/vectores/iglesiaICON.svg" alt="">
+            <h3 class="iglesia__title">Ceremonia Religiosa</h3>
+            <h6 class="iglesia__hora">Hora: 21:00pm</h6>
+            <p class="iglesia__paragraph">Santuario Nuestra Sra. de Rio Blanco y Paypaya <br> Rio Blanco, Jujuy</p>
+
+            <a class="donde__agendar" href="https://maps.app.goo.gl/znoTtSah1i9mUd1v9">
+                <img class="donde__agenda donde__agenda2" src="assets/vectores/UbicacionICON.svg" alt="">
+                Ver mapa</a>
+        </section>
+
+        <section class="civil">
+            <img class="civil__icon" src="assets/vectores/CivilIcon.svg" alt="">
+            <h4 class="iglesia__title">Celebración</h4>
+            <h6 class="iglesia__hora">Hora: 22:00pm</h6>
+            <p class="iglesia__paragraph">Bodega la Magdalena, Monterrico, Jujuy </p>
+
+            <a class="donde__agendar" href="https://maps.app.goo.gl/gseFn6V9CpnHSYWW6">
+                <img class="donde__agenda donde__agenda2" src="assets/vectores/UbicacionICON.svg" alt="">
+                Ver mapa</a>
+
+        </section>
+
+        <section class="foto">
+
+            <!-- <div>
+                <svg class="foto__svg" width="100%" preserveAspectRatio="none" height="90" viewBox="0 0 1000 100"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <filter id="sombra">
+                            <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.3)" />
+                        </filter>
+                    </defs>
+                    <path d="M0,85
+                          C50,70 120,110 180,75 
+                          C250,65 300,105 350,90
+                          C400,75 450,100 500,85
+                          C550,70 600,115 650,70 
+                          C700,65 750,105 800,90
+                          C850,75 900,110 950,95
+                          C980,85 1000,100 1000,90
+                          L1000,140
+                          L0,140
+                          Z" fill="#fff" filter="url(#sombra)" />
+                </svg>
+
+                <svg class="foto__svg2" width="100%" preserveAspectRatio="none" height="90" viewBox="0 0 1000 100"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <filter id="sombra">
+                            <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.3)" />
+                        </filter>
+                    </defs>
+                    <path d="M0,85
+                          C50,70 120,110 180,75 
+                          C250,65 300,105 350,90
+                          C400,75 450,100 500,85
+                          C550,70 600,115 650,70 
+                          C700,65 750,105 800,90
+                          C850,75 900,110 950,95
+                          C980,85 1000,100 1000,90
+                          L1000,140
+                          L0,140
+                          Z" fill="#fff" filter="url(#sombra)" />
+                </svg>
+            </div> -->
+
+            <img class="foto__fotografia" src="assets/imagenes/dos.webp" alt="">
+
+        </section>
+
+        <section class="dresscode">
+            <h4 class="dresscode__title">Dresscode</h4>
+            <h4 class="dresscode__subtitle">Elegante Sport</h4>
+            <img class="dresscode__img" src="assets/vectores/dresscodeICON.svg" alt="">
+
+            <h5 class="dresscode__note">Se reserva el color Blanco para la novia
+            </h5>
+
+            <!-- <div class="colores">
+
+                <div class="colores__circle">
+
+                    <div class="circulo1">
+                        <div class="circle circle1"></div>
+                        <h4 class="circle__color">Beige</h4>
+                    </div>
+
+                    <div class="circulo1">
+                        <div class="circle circle2"></div>
+                        <h4 class="circle__color">Champagne  <br> Clásico</h4>
+                    </div>
+
+                    <div class="circulo1">
+                        <div class="circle circle3"></div>
+                        <h4 class="circle__color">Champagne <br> Gold</h4>
+                    </div>
+
+
+                    <div class="circulo1">
+                        <div class="circle circle4"></div>
+                        <h4 class="circle__color">Gama <br> de Gris</h4>
+                    </div>
+
+
+                    <div class="circulo1">
+                        <div class="circle circle5"></div>
+                        <h4 class="circle__color">Gama <br> de Rosas</h4>
+                    </div> -->
+
+
+            <!-- <div class="circulo1">
+                        <div class="circle circle6"></div>
+                        <h4 class="circle__color">Blanco</h4>
+                    </div> -->
+
+
+
+            </div>
+            </div>
+
+        </section>
+
+        <section class="itinerarios">
+            <h3 class="itinerario__aviso">Sábado 07 de Febrero 2026</h3>
+            <div class="itinerario">
+
+
+                <div class="line">
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+
+
+                    <article class="itinerario__item item1">
+                        <img class="itinerario__icon icon1" src="assets/imagenes/iconos/iconoIGLESIA.webp" alt="">
+                        <div class="text right">
+                            <h6 class="itinerario__name">Ceremonia Religiosa</h6>
+                            <h6 class="itinerario__name itinerario__name2">21:00hs</h6>
+                        </div>
+                    </article>
+
+                    <article class="itinerario__item item2">
+                        <img class="itinerario__icon icon2" src="assets/imagenes/iconos/iconoINVITADOS.webp" alt="">
+                        <div class="text left">
+                            <h6 class="itinerario__name">Ingreso Invitados</h6>
+                            <h6 class="itinerario__name itinerario__name2">22:30hs</h6>
+                        </div>
+                    </article>
+
+                    <article class="itinerario__item item3">
+                        <img class="itinerario__icon icon3" src="assets/imagenes/iconos/iconoNOVIOS.webp" alt="">
+                        <div class="text right">
+                            <h6 class="itinerario__name">Nuestro Ingreso </h6>
+                            <h6 class="itinerario__name itinerario__name2">23:00hs</h6>
+                        </div>
+                    </article>
+
+                    <article class="itinerario__item item4">
+                        <img class="itinerario__icon icon4" src="assets/imagenes/iconos/iconoCENA.webp" alt="">
+                        <div class="text left">
+                            <h6 class="itinerario__name">Cena</h6>
+                            <h6 class="itinerario__name itinerario__name2">23:30hs</h6>
+                        </div>
+                    </article>
+
+                    <article class="itinerario__item item5">
+                        <img class="itinerario__icon icon5" src="assets/imagenes/iconos/iconoINICIOfiesta.webp" alt="">
+                        <div class="text right">
+                            <h6 class="itinerario__name">Inicio del Baile</h6>
+                            <h6 class="itinerario__name itinerario__name2">01:00hs</h6>
+                        </div>
+                    </article>
+                    <article class="itinerario__item item6">
+                        <img class="itinerario__icon icon6" src="assets/imagenes/iconos/iconoFIN.webp" alt="">
+                        <div class="text left">
+                            <h6 class="itinerario__name">Cierre de la Fiesta</h6>
+                            <h6 class="itinerario__name itinerario__name2">05:00hs</h6>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+   
+        <section class="regalos" data-aos="fade-up">
+
+            <h4 class="regalos__title">Regalos</h4>
+
+            <img class="regalos__icon" src="assets/vectores/iconREGALOS.svg" alt="">
+
+            <p class="parrafo parrafo--regalos">
+                "Queremos que sepas que tu presencia es lo más importante en nuestra fiesta y si deseas hacernos un
+                presente, podrás dejar tu sobre en la urna a la entrada del salón, o también podés hacerlo por
+                transferencia a nuestra
+                cuenta...
+                y recuerda: <br> ¡Tu cariño es el mejor regalo que podemos recibir!"
+            </p>
+
+            <button id="mostrarBoton" class="boton__cta">Ver datos bancarios</button>
+            <div id="textoDesplegable" class="escondido regalos__data">
+
+
+                <h6 class="regalo__date">Alias:</h6>
+                <p class="name__alias" id="alias">CAMISA.JAGUAR.MULITA</p>
+                <button class="alias__button" onclick="copyText()">
+                    <img class="copiar__icon" src="assets/vectores/copiar.svg" alt="">
+                    Copiar Alias</button>
+                <div class="copy-message" id="copyMessage">¡Copiado!</div>
+
+
+                <div class="lineRegalos"></div>
+
+
+                <!-- <h6 class="regalo__date">CBU:</h6>
+                <p class="name__cbu" id="cbuAlias">(aquí tu cbu)</p>
+                <button class="cbu__button" onclick="copyCbuText()">
+                    <img class="copiar__icon" src="assets/vectores/copiar.svg" alt="">
+                    Copiar CBU</button>
+                <div class="copy-message" id="copyCbuMessage" style="display: none;">¡Copiado!</div>   -->
+            </div>
+
+
+        </section>
+
+        <!-- <section class="deseos">
+            <img class="deseos__icon" src="assets/vectores/buzonDeseos.svg" alt="">
+            <h4 class="deseos__title">Buzón de deseos</h4>
+            <p class="deseos__paragraph">Nos encantaría leer tus buenos deseos. <br> Déjanos tu mensaje que recordaremos
+                por siempre...</p>
+
+            <textarea class="deseos__textarea" id="deseos__textarea" name="mensaje"></textarea>
+            <button class="deseos__enviar" id="deseos__enviar">Enviar mensaje</button>
+        </section> -->
+
+
+        <section class="foto">
+
+            <!-- <div>
+                <svg class="foto__svg" width="100%" preserveAspectRatio="none" height="90" viewBox="0 0 1000 100"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <filter id="sombra">
+                            <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.3)" />
+                        </filter>
+                    </defs>
+                    <path d="M0,85
+                          C50,70 120,110 180,75 
+                          C250,65 300,105 350,90
+                          C400,75 450,100 500,85
+                          C550,70 600,115 650,70 
+                          C700,65 750,105 800,90
+                          C850,75 900,110 950,95
+                          C980,85 1000,100 1000,90
+                          L1000,140
+                          L0,140
+                          Z" fill="#fff" filter="url(#sombra)" />
+                </svg>
+
+                <svg class="foto__svg2" width="100%" preserveAspectRatio="none" height="90" viewBox="0 0 1000 100"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <filter id="sombra">
+                            <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.3)" />
+                        </filter>
+                    </defs>
+                    <path d="M0,85
+                          C50,70 120,110 180,75 
+                          C250,65 300,105 350,90
+                          C400,75 450,100 500,85
+                          C550,70 600,115 650,70 
+                          C700,65 750,105 800,90
+                          C850,75 900,110 950,95
+                          C980,85 1000,100 1000,90
+                          L1000,140
+                          L0,140
+                          Z" fill="#fff" filter="url(#sombra)" />
+                </svg>
+            </div> -->
+
+            <img class="foto__fotografia" src="assets/imagenes/tres.webp" alt="">
+
+        </section>
+
+        <section style="display: none;" class="playlist" id="playlist" data-aos="fade-up">
+            <div class="playlist__container">
+                <img class="playlist__img" src="assets/vectores/musicaICON.svg" alt="">
+
+                <h4 class="title title--playlist">Sugerencia de canciones</h4>
+                <h4 class="subtitle subtitle--playlist">¿Cuáles son esas canciones que no pueden faltar en nuestra boda?
+                    <br> ¡Comparte tus favoritas con nosotros!
+                </h4>
+            </div>
+
+            <div class="playlist__mensaje" id="formContainer">
+                <label class="playlist__label" for="userName">Nombre y Apellido:</label>
+                <input class="playlist__input" type="text" id="userName" placeholder="Tu nombre y apellido">
+
+                <label class="playlist__label playlist__label2" for="whatsappMessage">Recomendación:</label>
+                <input class="playlist__input" type="text" id="whatsappMessage"
+                    placeholder="Escribe tu tema recomendado aquí">
+
+                <button class="boton__cta boton__cta2" id="botonplay1">Enviar Recomendación</button>
+                <button class="boton__cta boton__cta2" id="botonplay2">Enviar a 2</button>
+            </div>
+        </section>
+
+        
+
+        <!-- <section class="niños">            
+        <h4 class="niños__title">Solo Adultos</h4>
+        <p class="niños_texto">Amamos los niños, pero en nuestra fiesta queremos que disfrutes tanto como nosotros! <br> Niños dulces sueños...</p>
+        </section>  -->
+
+
+
+         <section style="display: none;" class="precio contenedor">
+            <div class="precio__content">
+                <h5 class="title precio__title">Precios de la Tarjeta</h5>
+                <p class="parrafo precio__paragraph">Estamos preparando una noche mágica para celebrar Nuestra Boda, y tu presencia será el regalo más importante. <br>
+                    
+                    ¡Gracias por ser parte de este evento tan especial!</p>
+                <h5 class="precio__monto"><span class="precio__span">Precio Adultos:</span> $64.000 </h5>
+             
+                <h5 class="precio__monto"><span class="precio__span">Precio Menores (6 a 12 años):</span> $32.000
+                </h5>
+                <h5 class="precio__monto"><span class="precio__span">Precio se actualiza el día 10 de cada mes <br> (consultar antes de abonar)
+                </h5>
+               
+            </div>
+            <button class="boton__cta boton__cta_bancarios" id="precio__toggle-btn">Ver datos bancarios para pagos</button>
+            <div class="precio__mostrar" id="precio__mostrar">
+                <h6 class="precio__name">Titular: Romina Daiana Castillo</h6>
+                <!-- <h6 class="precio__cuil">Cuil: 27304654967</h6>
+                <h6 class="precio__cuenta">Mercado Pago  </h6> -->
+                <div class="lines"></div>
+                <div class="datos">
+                    <!-- <h6 class="precio__CBU cbu__styles">0000003100095239335281</h6>
+                    <button id="precio__copy-cbu">Copiar CBU</button> -->
+                    <h6 class="precio__alias alias__styles">ROMIYDIEGO140226</h6>
+                    <button id="precio__copy-alias">Copiar Alias</button>
+                </div>
+            </div>
+
+            <button class="boton__cta foto__menu">Ver Menu alimenticio</button>
+
+            <!-- Contenedor Lightbox -->
+            <div class="menuFoto-lightbox" id="menuFotoLightbox">
+              <div class="menuFoto-overlay"></div>
+              <div class="menuFoto-contenedor">
+                <img class="menu__imagen menuFoto-imagen" src="assets/vectores/MENU.svg" alt="">
+                <button class="menuFoto-cerrar" id="menuFotoCerrar">CERRAR</button>
+              </div>
+            </div>
+
+        </section>
+
+
+
+
+
+      <section class="confirmacion " id="correo">
+            <div class="confirmacion__container">
+                <h4 class="confirmacion__title">Confirmación de Presencia</h4>
+                <h4 class="parrafo parrafo--confirmacion" data-aos="fade-right">
+                    Recordá que tenes hasta el día 01 de Febrero del 2026 para confirmar tu
+                    presencia <br>
+                </h4>
+                <div id="asistencia">
+                    <div class="asistencia__radios">
+                        <label class="asistencia__radio">
+                            <input class="assistencia_" type="radio" name="attendanceOption" value="SI ASISTIRÉ"> SI
+                            ASISTIRÉ
+                        </label>
+                        <label class="asistencia__radio">
+                            <input class="assistencia_" type="radio" name="attendanceOption" value="NO ASISTIRÉ"> NO
+                            ASISTIRÉ
+                        </label>
+                    </div>
+                    <br>
+                    <div class="asistencia__datos">
+                        <label class="asistencia__label" for="userFullName">Nombre y Apellido:</label>
+                        <input class="input__text" type="text" id="userFullName" placeholder="Tu nombre y apellido"
+                            required>
+                        <br>
+                        <label class="asistencia__label asistencia__label2" for="customMessage">Mensaje:</label>
+                        <textarea class="input__text input__text2" id="customMessage"
+                            placeholder="Mensaje opcional"></textarea>
+                        <br>
+                        <button class="boton__cta boton__cta3" id="botoncito1">
+                            <img class="whatsapp__icon" src="assets/vectores/whatsapp_redondo.svg" alt="">Confirmar
+                            asistencia</button>
+                        <button class="boton__cta boton__cta3" id="botoncito2"><img class="whatsapp__icon"
+                                src="assets/vectores/whatsapp_redondo.svg" alt="">Enviar mensaje</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="foto">
+
+            <!-- <div>
+                <svg class="foto__svg" width="100%" preserveAspectRatio="none" height="90" viewBox="0 0 1000 100"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <filter id="sombra">
+                            <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.3)" />
+                        </filter>
+                    </defs>
+                    <path d="M0,85
+                          C50,70 120,110 180,75 
+                          C250,65 300,105 350,90
+                          C400,75 450,100 500,85
+                          C550,70 600,115 650,70 
+                          C700,65 750,105 800,90
+                          C850,75 900,110 950,95
+                          C980,85 1000,100 1000,90
+                          L1000,140
+                          L0,140
+                          Z" fill="#fff" filter="url(#sombra)" />
+                </svg>
+
+                <svg class="foto__svg2" width="100%" preserveAspectRatio="none" height="90" viewBox="0 0 1000 100"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <filter id="sombra">
+                            <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.3)" />
+                        </filter>
+                    </defs>
+                    <path d="M0,85
+                          C50,70 120,110 180,75 
+                          C250,65 300,105 350,90
+                          C400,75 450,100 500,85
+                          C550,70 600,115 650,70 
+                          C700,65 750,105 800,90
+                          C850,75 900,110 950,95
+                          C980,85 1000,100 1000,90
+                          L1000,140
+                          L0,140
+                          Z" fill="#fff" filter="url(#sombra)" />
+                </svg>
+            </div> -->
+
+            <img class="foto__fotografia" src="assets/imagenes/cuatro.webp" alt="">
+
+        </section>
+
+        <section class="fraseFinal">
+            <h4 class="frasefinal">Con mucha ilusión queremos vivir este momento rodeados de personas que han formado parte de nuestra historia. <br> Será un honor contar con tu presencia. <br>
+¡Te esperamos! </h4>
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <img class="footer__hojas" src="assets/headerHOJAS.webp" alt="">        
+    </footer>
+
+
+    <section class="info" id="info">
+        <h6 class="info__text">
+            Página creada por "Luno Digitales" para la Boda de Romi y Diego - 2025/6 &copy todos los derechos reservados
+            - <br>
+            <a class="info__link" href="https://www.luno.net.ar/">
+                www.luno.net.ar
+            </a>
+        </h6>
+
+    </section>
+
+    <script src="javascript/script.js?v35"></script>
+
+</body>
+
+</html>

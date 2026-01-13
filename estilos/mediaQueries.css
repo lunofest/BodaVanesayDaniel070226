@@ -1,0 +1,49 @@
+@media(width >=768px) {
+
+    .header__hojas{
+        position: absolute;
+        width: 100%;
+        top: -18em;
+        object-fit: cover;
+        object-position: center;
+    }
+    .header__text{
+        margin-top: 10em;
+        text-align: center;
+        z-index: 100;
+      
+    }
+    .header__title{
+        font-family: var(--font-quicksand);
+        color: var(--colores-titulos);
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin: 0;
+    }
+    .header__name{
+        font-family: var(--font-great-vives);
+        font-size: 4rem;
+        color: var(--colores-titulos);
+        font-weight: 300;
+        margin: .5em 0 0 0;
+    }
+    .name__span{
+        font-size: 2rem;
+    }
+
+    footer{
+        position: relative;
+        display: flex;
+        justify-content: center;
+      }
+      /* .footer__hojas {
+        position: absolute;
+        width: 100%;
+        transform: rotate(180deg) translateY(50px);
+        object-fit: contain;
+        object-position: center;
+    } */
+    
+    
+
+}
