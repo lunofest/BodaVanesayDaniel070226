@@ -37,7 +37,7 @@ forwardButton.addEventListener("click", () => {
 // ------------------- temporizador -----------------------
 
 // Fecha objetivo en formato "July 1, 2025 22:30:00"
-const fechaObjetivo = new Date("February 14, 2026 21:00:00").getTime();
+const fechaObjetivo = new Date("February 7, 2026 21:00:00").getTime();
 
 function actualizarContador() {
     const ahora = new Date().getTime();
